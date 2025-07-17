@@ -1,0 +1,17 @@
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net9.0\CleanArchitecture.Persistance.deps.json
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net9.0\CleanArchitecture.Persistance.runtimeconfig.json
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net9.0\CleanArchitecture.Persistance.dll
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net9.0\CleanArchitecture.Persistance.pdb
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net9.0\CleanArchitecture.Domain.dll
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\bin\Debug\net9.0\CleanArchitecture.Domain.pdb
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArchitecture.Persistance.csproj.AssemblyReference.cache
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArchitecture.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArchitecture.Persistance.AssemblyInfoInputs.cache
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArchitecture.Persistance.AssemblyInfo.cs
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArchitecture.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArc.7FA6ECDA.Up2Date
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArchitecture.Persistance.dll
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\refint\CleanArchitecture.Persistance.dll
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArchitecture.Persistance.pdb
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\CleanArchitecture.Persistance.genruntimeconfig.cache
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Persistance\obj\Debug\net9.0\ref\CleanArchitecture.Persistance.dll

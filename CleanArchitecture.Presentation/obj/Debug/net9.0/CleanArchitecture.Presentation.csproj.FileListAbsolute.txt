@@ -1,0 +1,12 @@
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\bin\Debug\net9.0\CleanArchitecture.Presentation.deps.json
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\bin\Debug\net9.0\CleanArchitecture.Presentation.dll
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\bin\Debug\net9.0\CleanArchitecture.Presentation.pdb
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\CleanArchitecture.Presentation.csproj.AssemblyReference.cache
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\CleanArchitecture.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\CleanArchitecture.Presentation.AssemblyInfoInputs.cache
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\CleanArchitecture.Presentation.AssemblyInfo.cs
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\CleanArchitecture.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\CleanArchitecture.Presentation.dll
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\refint\CleanArchitecture.Presentation.dll
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\CleanArchitecture.Presentation.pdb
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Presentation\obj\Debug\net9.0\ref\CleanArchitecture.Presentation.dll
