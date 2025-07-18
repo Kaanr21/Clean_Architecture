@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CleanArchitecture.Presentation.Controllers.ValuesController",
+    "Method": "GetAllCars",
+    "RelativePath": "api/Values/GetAllCars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CleanArchitecture.Application.Feautures.CarFeautures.Queries.GelAllCar.GetAllCarQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

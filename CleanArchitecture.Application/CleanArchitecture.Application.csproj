@@ -13,9 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Feautures\Car\Queries\" />
-    <Folder Include="Interfaces\UnitOfWork\" />
-    <Folder Include="DTOs\" />
+    <ProjectReference Include="..\CleanArchitecture.Domain\CleanArchitecture.Domain.csproj" />
   </ItemGroup>
 
 </Project>

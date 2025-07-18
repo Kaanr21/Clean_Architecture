@@ -1675,6 +1675,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "AutoMapper": "12.0.1",
+          "CleanArchitecture.Domain": "1.0.0",
           "FluentValidation": "12.0.0",
           "MediatR": "13.0.0"
         },
@@ -1683,6 +1684,16 @@
         },
         "runtime": {
           "bin/placeholder/CleanArchitecture.Application.dll": {}
+        }
+      },
+      "CleanArchitecture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Domain.dll": {}
         }
       },
       "CleanArchitecture.Presentation/1.0.0": {
@@ -4966,6 +4977,11 @@
       "type": "project",
       "path": "../CleanArchitecture.Application/CleanArchitecture.Application.csproj",
       "msbuildProject": "../CleanArchitecture.Application/CleanArchitecture.Application.csproj"
+    },
+    "CleanArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
+      "msbuildProject": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj"
     },
     "CleanArchitecture.Presentation/1.0.0": {
       "type": "project",

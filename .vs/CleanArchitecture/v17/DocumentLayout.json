@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{425B739B-C69A-4403-925A-C990E5DFEB62}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.test\\carscontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{425B739B-C69A-4403-925A-C990E5DFEB62}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\carscontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.presentation\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\car\\queries\\gelallcar\\getallcarqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\car\\queries\\gelallcar\\getallcarqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\car\\queries\\gelallcar\\getallcarquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\car\\queries\\gelallcar\\getallcarquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2F84F8-BF28-47BB-9ADD-4F51CC2808C5}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.domain\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2F84F8-BF28-47BB-9ADD-4F51CC2808C5}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CarsControllerUnitTest.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Test\\CarsControllerUnitTest.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Test\\CarsControllerUnitTest.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Test\\CarsControllerUnitTest.cs",
-              "RelativeToolTip": "CleanArchitecture.Test\\CarsControllerUnitTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T13:37:11.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\ValuesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T13:29:04.961Z",
+              "WhenOpened": "2025-07-18T15:29:28.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllCarQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\Car\\Queries\\GelAllCar\\GetAllCarQueryHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\Car\\Queries\\GelAllCar\\GetAllCarQueryHandler.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\Car\\Queries\\GelAllCar\\GetAllCarQueryHandler.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\Car\\Queries\\GelAllCar\\GetAllCarQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:13:30.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Entities\\Car.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\Entities\\Car.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Entities\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:11:38.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllCarQuery.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\Car\\Queries\\GelAllCar\\GetAllCarQuery.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\Car\\Queries\\GelAllCar\\GetAllCarQuery.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\Car\\Queries\\GelAllCar\\GetAllCarQuery.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\Car\\Queries\\GelAllCar\\GetAllCarQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:08:36.004Z",
               "EditorCaption": ""
             }
           ]

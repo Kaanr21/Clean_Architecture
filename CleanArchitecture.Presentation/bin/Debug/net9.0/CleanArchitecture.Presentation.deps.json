@@ -823,11 +823,20 @@
       "CleanArchitecture.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
+          "CleanArchitecture.Domain": "1.0.0",
           "FluentValidation": "12.0.0",
           "MediatR": "13.0.0"
         },
         "runtime": {
           "CleanArchitecture.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CleanArchitecture.Domain/1.0.0": {
+        "runtime": {
+          "CleanArchitecture.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1402,6 +1411,11 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "CleanArchitecture.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitecture.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

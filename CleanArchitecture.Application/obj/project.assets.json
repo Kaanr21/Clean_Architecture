@@ -243,6 +243,16 @@
             "related": ".xml"
           }
         }
+      },
+      "CleanArchitecture.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CleanArchitecture.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitecture.Domain.dll": {}
+        }
       }
     }
   },
@@ -717,11 +727,17 @@
         "microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
         "microsoft.identitymodel.tokens.nuspec"
       ]
+    },
+    "CleanArchitecture.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj",
+      "msbuildProject": "../CleanArchitecture.Domain/CleanArchitecture.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "AutoMapper >= 12.0.1",
+      "CleanArchitecture.Domain >= 1.0.0",
       "FluentValidation >= 12.0.0",
       "MediatR >= 13.0.0"
     ]
@@ -757,7 +773,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+              "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
