@@ -1,12 +1,18 @@
 [
   {
     "ContainingType": "CleanArchitecture.Presentation.Controllers.ValuesController",
-    "Method": "get",
-    "RelativePath": "api/Values",
-    "HttpMethod": "GET",
+    "Method": "CreateCar",
+    "RelativePath": "api/Values/CreateCar",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CleanArchitecture.Application.Feautures.Car.Commands.CreateCarCommand",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

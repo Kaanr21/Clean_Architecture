@@ -1,17 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj": {}
+    "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+    "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
-        "projectName": "CleanArchitecture.Domain",
-        "projectPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectName": "CleanArchitecture.Application",
+        "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
         "packagesPath": "C:\\Users\\kaan_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaan_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectName": "CleanArchitecture.Domain",
+        "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "packagesPath": "C:\\Users\\kaan_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj": {
+    "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj",
         "projectName": "CleanArchitecture.Persistance",
-        "projectPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj",
+        "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj",
         "packagesPath": "C:\\Users\\kaan_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Persistance\\obj\\",
+        "outputPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +172,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              },
+              "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }
@@ -119,6 +197,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -150,14 +236,14 @@
         }
       }
     },
-    "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj": {
+    "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj",
         "projectName": "CleanArchitecture.Presentation",
-        "projectPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj",
+        "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj",
         "packagesPath": "C:\\Users\\kaan_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Presentation\\obj\\",
+        "outputPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -177,7 +263,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+                "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -196,6 +286,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -221,14 +315,14 @@
         }
       }
     },
-    "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj": {
+    "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj",
         "projectName": "CleanArchitecture.WebApi",
-        "projectPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj",
+        "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj",
         "packagesPath": "C:\\Users\\kaan_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -249,11 +343,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj": {
-                "projectPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj"
+              "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj": {
+                "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Persistance\\CleanArchitecture.Persistance.csproj"
               },
-              "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj": {
-                "projectPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj"
+              "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj": {
+                "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj"
               }
             }
           }
@@ -274,6 +368,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.3, )"

@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Feautures\Car\Queries\" />
+    <Folder Include="Interfaces\UnitOfWork\" />
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
 </Project>

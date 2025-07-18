@@ -1,17 +1,26 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CleanArchitecture.Application.Feautures.Car.Commands;
+using CleanArchitecture.Presentation.Abstraction;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchitecture.Presentation.Controllers
 {
 
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ValuesController : ControllerBase
+    public class ValuesController : MyBaseApiController
     {
-
-        [HttpGet]
-        public IActionResult get()
+        public ValuesController(IMediator mediator) : base(mediator)
         {
-            return Ok("deneme");
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreateCar(CreateCarCommand request, CancellationToken token)
+        {
+            var message = await _mediator.Send(request, token);
+
+            return Ok(message);
+
+
         }
 
 

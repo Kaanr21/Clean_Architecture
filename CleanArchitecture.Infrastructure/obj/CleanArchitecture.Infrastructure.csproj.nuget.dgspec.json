@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {}
+    "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+    "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
         "projectName": "CleanArchitecture.Infrastructure",
-        "projectPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\kaan_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaan_\\Desktop\\Clean Architecture\\CleanArchitecture\\CleanArchitecture.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

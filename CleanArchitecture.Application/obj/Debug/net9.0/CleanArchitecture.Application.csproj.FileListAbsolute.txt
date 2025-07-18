@@ -1,6 +1,7 @@
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.deps.json
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.dll
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.pdb
+C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.AssemblyInfo.cs
@@ -9,3 +10,16 @@ C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Ap
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\refint\CleanArchitecture.Application.dll
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.pdb
 C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net9.0\ref\CleanArchitecture.Application.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.deps.json
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\bin\Debug\net9.0\CleanArchitecture.Application.pdb
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.AssemblyInfo.cs
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.sourcelink.json
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\refint\CleanArchitecture.Application.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\CleanArchitecture.Application.pdb
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\obj\Debug\net9.0\ref\CleanArchitecture.Application.dll
