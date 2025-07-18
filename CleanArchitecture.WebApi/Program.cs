@@ -1,8 +1,11 @@
+using CleanArchitecture.Application.Behaviors;
 using CleanArchitecture.Application.Interfaces.AutoMapper;
 using CleanArchitecture.Application.Interfaces.Services;
 using CleanArchitecture.Persistance.AutoMapper;
 using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Services;
+using FluentValidation;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +18,9 @@ builder.Services.AddMediatR(cfr =>
 {
     cfr.RegisterServicesFromAssembly(typeof(CleanArchitecture.Application.AssemblyRegister).Assembly);
 });
+
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(FluentValidationBehavior<,>));
+builder.Services.AddValidatorsFromAssembly(typeof(CleanArchitecture.Application.AssemblyRegister).Assembly);
 
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connString));
 

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C61E3271-36A1-4AE7-A69B-8DE7F9BF3E1C}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C61E3271-36A1-4AE7-A69B-8DE7F9BF3E1C}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\car\\commands\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\car\\commands\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\behaviors\\fluentvalidationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\behaviors\\fluentvalidationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreateCarCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\Car\\Commands\\CreateCarCommandValidator.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\Car\\Commands\\CreateCarCommandValidator.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\Car\\Commands\\CreateCarCommandValidator.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\Car\\Commands\\CreateCarCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T07:43:28.52Z",
+              "WhenOpened": "2025-07-18T08:56:24.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FluentValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Behaviors\\FluentValidationBehavior.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Behaviors\\FluentValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Behaviors\\FluentValidationBehavior.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Behaviors\\FluentValidationBehavior.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:41:42.388Z",
               "EditorCaption": ""
             }
           ]
