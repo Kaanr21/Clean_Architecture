@@ -36,7 +36,7 @@ Proje aşağıdaki gibi yapılandırılmıştır:
 - FluentValidation
 - JWT Authentication
 - Swagger UI
-- PostgreSQL / SQL Server (seçilebilir yapı)
+- SQL Server
 - Serilog
 
 ## 🔧 Kurulum
