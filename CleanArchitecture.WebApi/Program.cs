@@ -1,4 +1,4 @@
-using CleanArchitecture.Application.Behaviors;
+﻿using CleanArchitecture.Application.Behaviors;
 using CleanArchitecture.Application.Interfaces.AutoMapper;
 using CleanArchitecture.Application.Interfaces.Services;
 using CleanArchitecture.Persistance.AutoMapper;
@@ -7,6 +7,8 @@ using CleanArchitecture.Persistance.Services;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +32,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<ICustomMapper, CustomMapper>();
 builder.Services.AddScoped<ICarService, CarService>();
+
+//Serilog Configurations
+SerilogConfig.Configure();
+builder.Host.UseSerilog();
 
 
 var app = builder.Build();

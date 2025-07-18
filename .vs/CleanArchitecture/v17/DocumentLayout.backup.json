@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C61E3271-36A1-4AE7-A69B-8DE7F9BF3E1C}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.webapi\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C61E3271-36A1-4AE7-A69B-8DE7F9BF3E1C}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{425B739B-C69A-4403-925A-C990E5DFEB62}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.test\\carscontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425B739B-C69A-4403-925A-C990E5DFEB62}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\carscontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C61E3271-36A1-4AE7-A69B-8DE7F9BF3E1C}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C61E3271-36A1-4AE7-A69B-8DE7F9BF3E1C}|CleanArchitecture.WebApi\\CleanArchitecture.WebApi.csproj|solutionrelative:cleanarchitecture.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\car\\commands\\createcarcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\car\\commands\\createcarcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\Program.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAApAAAAAAAAAA==",
+              "Title": "CreateCarCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\Car\\Commands\\CreateCarCommandRequest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\Car\\Commands\\CreateCarCommandRequest.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\Car\\Commands\\CreateCarCommandRequest.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\Car\\Commands\\CreateCarCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T09:45:25.389Z",
+              "WhenOpened": "2025-07-18T13:26:57.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.WebApi\\Middlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.WebApi\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "CleanArchitecture.WebApi\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCwAAAApAAAAAAAAAA==",
+              "Title": "CarsControllerUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Test\\CarsControllerUnitTest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Test\\CarsControllerUnitTest.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Test\\CarsControllerUnitTest.cs",
+              "RelativeToolTip": "CleanArchitecture.Test\\CarsControllerUnitTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T09:44:35.123Z",
+              "WhenOpened": "2025-07-18T13:22:32.083Z",
               "EditorCaption": ""
             }
           ]

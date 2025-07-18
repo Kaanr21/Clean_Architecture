@@ -363,3 +363,12 @@ C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\Debug\net9.0\ref\CleanArchitecture.WebApi.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\FluentValidation.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Serilog.Sinks.File.dll

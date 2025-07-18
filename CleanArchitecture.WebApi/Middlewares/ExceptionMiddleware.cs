@@ -42,7 +42,7 @@ public class ExceptionMiddleware
                  {
                      Field = e.PropertyName,
                      Error = string.IsNullOrWhiteSpace(e.ErrorMessage)
-                         ? "Geçersiz Alan"
+                         ? "Geçersiz Alan "
                          : e.ErrorMessage
                  });
 
