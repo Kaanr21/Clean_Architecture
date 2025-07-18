@@ -42,7 +42,7 @@ Proje aşağıdaki gibi yapılandırılmıştır:
 ## 🔧 Kurulum
 
 
-#1. Repozitoriyi klonlayın:
+1. Repozitoriyi klonlayın:
 
 ```bash
    git clone https://github.com/Kaanr21/Clean_Architecture.git
