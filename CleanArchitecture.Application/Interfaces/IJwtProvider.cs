@@ -5,6 +5,6 @@ namespace CleanArchitecture.Application.Interfaces
 {
     public interface IJwtProvider
     {
-        Task<LoginCommandResponse> CreateToken(AppUser user);
+        Task<LoginCommandResponse> CreateTokenAsync(AppUser user);
     }
 }

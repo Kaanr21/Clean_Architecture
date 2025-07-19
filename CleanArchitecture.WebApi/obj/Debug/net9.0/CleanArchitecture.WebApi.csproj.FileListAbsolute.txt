@@ -196,6 +196,7 @@ C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Humanizer.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\MediatR.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -346,8 +347,10 @@ C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Application.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Domain.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Infrastructure.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Persistance.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Presentation.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Infrastructure.pdb
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Persistance.pdb
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Presentation.pdb
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Application.pdb
@@ -377,6 +380,3 @@ C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\Debug\net9.0\CleanArchitecture.WebApi.pdb
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\Debug\net9.0\CleanArchitecture.WebApi.genruntimeconfig.cache
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\Debug\net9.0\ref\CleanArchitecture.WebApi.dll
-C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Infrastructure.dll
-C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Infrastructure.pdb

@@ -22,7 +22,7 @@ namespace CleanArchitecture.Infrastructure.Authentication
             _userManager = userManager;
         }
 
-        public async Task<LoginCommandResponse> CreateToken(AppUser user)
+        public async Task<LoginCommandResponse> CreateTokenAsync(AppUser user)
         {
 
             var claims = new Claim[]
@@ -48,6 +48,9 @@ namespace CleanArchitecture.Infrastructure.Authentication
             user.RefreshToken = refreshToken;
             user.RefreshTokenExpire = expire.AddMinutes(20);
 
+            await _userManager.UpdateAsync(user);
+
+
             LoginCommandResponse response = new LoginCommandResponse
             {
                 Token = token,
@@ -61,5 +64,7 @@ namespace CleanArchitecture.Infrastructure.Authentication
 
             return response;
         }
+
+
     }
 }

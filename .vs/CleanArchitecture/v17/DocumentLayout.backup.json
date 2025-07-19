@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\accountfeautures\\commands\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\accountfeautures\\commands\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5341BCA4-3C0D-4367-94EB-1339F3452E49}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.infrastructure\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5341BCA4-3C0D-4367-94EB-1339F3452E49}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.presentation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.presentation\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\accountfeautures\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\accountfeautures\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\accountfeautures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\accountfeautures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2F84F8-BF28-47BB-9ADD-4F51CC2808C5}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E2F84F8-BF28-47BB-9ADD-4F51CC2808C5}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Login\\LoginCommandResponse.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Login\\LoginCommandResponse.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Login\\LoginCommandResponse.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Login\\LoginCommandResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T12:37:38.837Z",
+              "WhenOpened": "2025-07-19T13:42:24.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T13:42:16.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "JwtProvider.cs",
               "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
               "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
               "RelativeToolTip": "CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T12:17:29.782Z",
+              "WhenOpened": "2025-07-19T13:30:46.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T13:23:36.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T13:21:21.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:53:32.821Z",
               "EditorCaption": ""
             }
           ]

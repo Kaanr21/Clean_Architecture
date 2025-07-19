@@ -1,8 +1,10 @@
 ﻿using CleanArchitecture.Application.Behaviors;
+using CleanArchitecture.Application.Interfaces;
 using CleanArchitecture.Application.Interfaces.AutoMapper;
 using CleanArchitecture.Application.Interfaces.Services;
 using CleanArchitecture.Application.Interfaces.UnitOfWork;
 using CleanArchitecture.Domain.Entities;
+using CleanArchitecture.Infrastructure.Authentication;
 using CleanArchitecture.Infrastructure.Services;
 using CleanArchitecture.Persistance.AutoMapper;
 using CleanArchitecture.Persistance.Context;
@@ -33,7 +35,10 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connString))
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IJwtProvider, JwtProvider>();
+
 builder.Services.AddSingleton<IMailService, MailService>();
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
