@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5341BCA4-3C0D-4367-94EB-1339F3452E49}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.infrastructure\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5341BCA4-3C0D-4367-94EB-1339F3452E49}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
+              "RelativeToolTip": "CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T12:17:29.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
