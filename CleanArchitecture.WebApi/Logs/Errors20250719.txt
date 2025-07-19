@@ -825,3 +825,75 @@ System.Exception: Kullanıcı Bulunamadı
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\Middlewares\ExceptionMiddleware.cs:line 20
+2025-07-19 17:33:00.273 +03:00 [ERR] Hata yakalandı: user
+System.Exception: user
+   at CleanArchitecture.Application.Feautures.AccountFeautures.Commands.CreateNewTokenByRefreshToken.CreateNewTokenByRefreshTokenHandler.Handle(CreateNewTokenByRefreshTokenCommand request, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Feautures\AccountFeautures\Commands\CreateNewTokenByRefreshToken\CreateNewTokenByRefreshTokenHandler.cs:line 26
+   at CleanArchitecture.Application.Behaviors.FluentValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Behaviors\FluentValidationBehavior.cs:line 20
+   at CleanArchitecture.Presentation.Controllers.AccountController.GetTokenByRefreshToken(CreateNewTokenByRefreshTokenCommand request, CancellationToken token) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Presentation\Controllers\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\Middlewares\ExceptionMiddleware.cs:line 20
+2025-07-19 17:35:52.618 +03:00 [ERR] Hata yakalandı: Böyle bir kullanıcı yok
+System.Exception: Böyle bir kullanıcı yok
+   at CleanArchitecture.Application.Feautures.AccountFeautures.Commands.CreateNewTokenByRefreshToken.CreateNewTokenByRefreshTokenHandler.Handle(CreateNewTokenByRefreshTokenCommand request, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Feautures\AccountFeautures\Commands\CreateNewTokenByRefreshToken\CreateNewTokenByRefreshTokenHandler.cs:line 26
+   at CleanArchitecture.Application.Behaviors.FluentValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Behaviors\FluentValidationBehavior.cs:line 20
+   at CleanArchitecture.Presentation.Controllers.AccountController.CreateNewTokenByRefreshToken(CreateNewTokenByRefreshTokenCommand request, CancellationToken token) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Presentation\Controllers\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\Middlewares\ExceptionMiddleware.cs:line 20
+2025-07-19 17:36:06.527 +03:00 [ERR] Hata yakalandı: Refresh Token Geçerli Değil
+System.Exception: Refresh Token Geçerli Değil
+   at CleanArchitecture.Application.Feautures.AccountFeautures.Commands.CreateNewTokenByRefreshToken.CreateNewTokenByRefreshTokenHandler.Handle(CreateNewTokenByRefreshTokenCommand request, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Feautures\AccountFeautures\Commands\CreateNewTokenByRefreshToken\CreateNewTokenByRefreshTokenHandler.cs:line 31
+   at CleanArchitecture.Application.Behaviors.FluentValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Behaviors\FluentValidationBehavior.cs:line 20
+   at CleanArchitecture.Presentation.Controllers.AccountController.CreateNewTokenByRefreshToken(CreateNewTokenByRefreshTokenCommand request, CancellationToken token) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Presentation\Controllers\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\Middlewares\ExceptionMiddleware.cs:line 20
+2025-07-19 17:36:24.728 +03:00 [ERR] Hata yakalandı: Refresh Token Geçerli Değil
+System.Exception: Refresh Token Geçerli Değil
+   at CleanArchitecture.Application.Feautures.AccountFeautures.Commands.CreateNewTokenByRefreshToken.CreateNewTokenByRefreshTokenHandler.Handle(CreateNewTokenByRefreshTokenCommand request, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Feautures\AccountFeautures\Commands\CreateNewTokenByRefreshToken\CreateNewTokenByRefreshTokenHandler.cs:line 31
+   at CleanArchitecture.Application.Behaviors.FluentValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Behaviors\FluentValidationBehavior.cs:line 20
+   at CleanArchitecture.Presentation.Controllers.AccountController.CreateNewTokenByRefreshToken(CreateNewTokenByRefreshTokenCommand request, CancellationToken token) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Presentation\Controllers\AccountController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\Middlewares\ExceptionMiddleware.cs:line 20

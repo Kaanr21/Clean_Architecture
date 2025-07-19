@@ -36,10 +36,10 @@
         }
       }
     },
-    "/api/Login/Login": {
+    "/api/Account/Login": {
       "post": {
         "tags": [
-          "Login"
+          "Account"
         ],
         "requestBody": {
           "content": {
@@ -56,6 +56,37 @@
             "application/*+json": {
               "schema": {
                 "$ref": "#/components/schemas/LoginCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/CreateNewTokenByRefreshToken": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewTokenByRefreshTokenCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewTokenByRefreshTokenCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNewTokenByRefreshTokenCommand"
               }
             }
           }
@@ -146,6 +177,20 @@
           "enginePower": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateNewTokenByRefreshTokenCommand": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "refrehToken": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

@@ -1,6 +1,38 @@
 [
   {
     "ContainingType": "CleanArchitecture.Presentation.Controllers.AccountController",
+    "Method": "CreateNewTokenByRefreshToken",
+    "RelativePath": "api/Account/CreateNewTokenByRefreshToken",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CleanArchitecture.Application.Feautures.AccountFeautures.Commands.CreateNewTokenByRefreshToken.CreateNewTokenByRefreshTokenCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CleanArchitecture.Presentation.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Login.LoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CleanArchitecture.Presentation.Controllers.AccountController",
     "Method": "Register",
     "RelativePath": "api/Account/Register",
     "HttpMethod": "POST",
@@ -10,22 +42,6 @@
       {
         "Name": "request",
         "Type": "CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Register.RegisterCommand",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CleanArchitecture.Presentation.Controllers.LoginController",
-    "Method": "Login",
-    "RelativePath": "api/Login/Login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Login.LoginCommand",
         "IsRequired": true
       }
     ],

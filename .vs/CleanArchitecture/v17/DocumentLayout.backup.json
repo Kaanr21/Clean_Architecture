@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5341BCA4-3C0D-4367-94EB-1339F3452E49}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.infrastructure\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5341BCA4-3C0D-4367-94EB-1339F3452E49}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\authentication\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\accountfeautures\\commands\\createnewtokenbyrefreshtoken\\createnewtokenbyrefreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\accountfeautures\\commands\\createnewtokenbyrefreshtoken\\createnewtokenbyrefreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.presentation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.presentation\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78367419-F2AF-4C1D-8362-C2E5B4F8A5B5}|CleanArchitecture.Presentation\\CleanArchitecture.Presentation.csproj|solutionrelative:cleanarchitecture.presentation\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\accountfeautures\\commands\\createnewtokenbyrefreshtoken\\createnewtokenbyrefreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\accountfeautures\\commands\\createnewtokenbyrefreshtoken\\createnewtokenbyrefreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\accountfeautures\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\accountfeautures\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.application\\feautures\\accountfeautures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B711054E-4ACB-472D-A3EB-ABBF9155F9B6}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\feautures\\accountfeautures\\commands\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E2F84F8-BF28-47BB-9ADD-4F51CC2808C5}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\kaan_\\documents\\github\\clean_architecture\\cleanarchitecture.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E2F84F8-BF28-47BB-9ADD-4F51CC2808C5}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -42,63 +34,37 @@
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwB4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T13:42:24.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Presentation\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Presentation\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "CleanArchitecture.Presentation\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T13:42:16.139Z",
+              "WhenOpened": "2025-07-19T14:30:41.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
-              "RelativeToolTip": "CleanArchitecture.Infrastructure\\Authentication\\JwtProvider.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwDIAAAAxAAAAAAAAAA==",
+              "Title": "CreateNewTokenByRefreshTokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\CreateNewTokenByRefreshToken\\CreateNewTokenByRefreshTokenHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\CreateNewTokenByRefreshToken\\CreateNewTokenByRefreshTokenHandler.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\CreateNewTokenByRefreshToken\\CreateNewTokenByRefreshTokenHandler.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\CreateNewTokenByRefreshToken\\CreateNewTokenByRefreshTokenHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwB4AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T13:30:46.72Z",
+              "WhenOpened": "2025-07-19T14:22:03.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\Entities\\AppUser.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Entities\\AppUser.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Domain\\Entities\\AppUser.cs",
-              "RelativeToolTip": "CleanArchitecture.Domain\\Entities\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreateNewTokenByRefreshTokenCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\CreateNewTokenByRefreshToken\\CreateNewTokenByRefreshTokenCommand.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\CreateNewTokenByRefreshToken\\CreateNewTokenByRefreshTokenCommand.cs",
+              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\CreateNewTokenByRefreshToken\\CreateNewTokenByRefreshTokenCommand.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\CreateNewTokenByRefreshToken\\CreateNewTokenByRefreshTokenCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAB4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T13:23:36.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Register\\RegisterCommandHandler.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Register\\RegisterCommandHandler.cs",
-              "ToolTip": "C:\\Users\\kaan_\\Documents\\GitHub\\Clean_Architecture\\CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Register\\RegisterCommandHandler.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Feautures\\AccountFeautures\\Commands\\Register\\RegisterCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T13:21:21.597Z",
+              "WhenOpened": "2025-07-19T14:21:54.344Z",
               "EditorCaption": ""
             },
             {
