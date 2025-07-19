@@ -24,14 +24,14 @@ namespace CleanArchitecture.Persistance.AutoMapper
             return mapperContainer.Map<IList<TSource>, IList<TDestination>>(source);
         }
 
-        public TDestination map<TDestination, TSource>(object source, string? ignore = null)
+        public TDestination Map<TDestination, TSource>(object source, string? ignore = null)
         {
             Config<TDestination, object>(5, ignore);
 
             return mapperContainer.Map<TDestination>(source);
         }
 
-        public IList<TDestination> map<TDestination>(IList<object> source, string? ignore = null)
+        public IList<TDestination> Map<TDestination>(IList<object> source, string? ignore = null)
         {
             Config<TDestination, IList<object>>(5, ignore);
 

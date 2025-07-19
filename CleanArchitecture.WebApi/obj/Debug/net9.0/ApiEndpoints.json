@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "CleanArchitecture.Presentation.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Register.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CleanArchitecture.Presentation.Controllers.ValuesController",
     "Method": "CreateCar",
     "RelativePath": "api/Values/CreateCar",
@@ -19,7 +35,7 @@
     "ContainingType": "CleanArchitecture.Presentation.Controllers.ValuesController",
     "Method": "GetAllCars",
     "RelativePath": "api/Values/GetAllCars",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

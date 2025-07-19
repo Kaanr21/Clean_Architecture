@@ -12,6 +12,7 @@ C:\Users\kaan_\Desktop\Clean Architecture\CleanArchitecture\CleanArchitecture.Do
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\bin\Debug\net9.0\CleanArchitecture.Domain.deps.json
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\bin\Debug\net9.0\CleanArchitecture.Domain.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\bin\Debug\net9.0\CleanArchitecture.Domain.pdb
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.csproj.AssemblyReference.cache
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.AssemblyInfoInputs.cache
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.AssemblyInfo.cs
@@ -21,4 +22,3 @@ C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\Debug\net9.0\refint\CleanArchitecture.Domain.dll
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.pdb
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\Debug\net9.0\ref\CleanArchitecture.Domain.dll
-C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.csproj.AssemblyReference.cache

@@ -7,7 +7,7 @@ namespace CleanArchitecture.Domain.Entities
         public AppUser()
         {
 
-            Id = new Guid().ToString();
+            Id = Guid.NewGuid().ToString();
         }
     }
 }
