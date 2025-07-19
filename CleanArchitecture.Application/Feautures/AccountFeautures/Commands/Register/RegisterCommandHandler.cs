@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Application.Interfaces.AutoMapper;
+using CleanArchitecture.Application.Interfaces.Services;
 using CleanArchitecture.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -9,10 +10,12 @@ namespace CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Regi
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly ICustomMapper _customMapper;
-        public RegisterCommandHandler(UserManager<AppUser> userManager, ICustomMapper customMapper)
+        private readonly IMailService _mailService;
+        public RegisterCommandHandler(UserManager<AppUser> userManager, ICustomMapper customMapper, IMailService mailService)
         {
             _userManager = userManager;
             _customMapper = customMapper;
+            _mailService = mailService;
         }
 
         public async Task<RegisterCommandResponse> Handle(RegisterCommand request, CancellationToken cancellationToken)
@@ -23,6 +26,8 @@ namespace CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Regi
 
             if (!result.Succeeded)
                 throw new Exception(result.Errors.First().Description);
+
+            // await _mailService.SendMail(user.Email, "Yeni Kullanıcı Kaydı", "<b>Başarıyla Sisteme Kayıt Edildiniz.</b>");
 
             return new RegisterCommandResponse();
 

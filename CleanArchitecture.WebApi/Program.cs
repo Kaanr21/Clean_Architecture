@@ -3,9 +3,11 @@ using CleanArchitecture.Application.Interfaces.AutoMapper;
 using CleanArchitecture.Application.Interfaces.Services;
 using CleanArchitecture.Application.Interfaces.UnitOfWork;
 using CleanArchitecture.Domain.Entities;
+using CleanArchitecture.Infrastructure.Services;
 using CleanArchitecture.Persistance.AutoMapper;
 using CleanArchitecture.Persistance.Context;
 using CleanArchitecture.Persistance.Services;
+using CleanArchitecture.WebApi.OptionsSetup;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -31,6 +33,7 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connString))
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<AppDbContext>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddSingleton<IMailService, MailService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -42,6 +45,12 @@ builder.Services.AddScoped<ICarService, CarService>();
 //Serilog Configurations
 SerilogConfig.Configure();
 builder.Host.UseSerilog();
+
+
+//JWT settings
+builder.Services.ConfigureOptions<JwtOptionsSetup>();
+builder.Services.ConfigureOptions<JwtBearerOptionsSetup>();
+builder.Services.AddAuthentication().AddJwtBearer();
 
 
 var app = builder.Build();

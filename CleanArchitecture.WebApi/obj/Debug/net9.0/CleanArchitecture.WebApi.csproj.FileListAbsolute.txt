@@ -377,3 +377,6 @@ C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\Debug\net9.0\CleanArchitecture.WebApi.pdb
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\Debug\net9.0\CleanArchitecture.WebApi.genruntimeconfig.cache
 C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\obj\Debug\net9.0\ref\CleanArchitecture.WebApi.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Infrastructure.dll
+C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\bin\Debug\net9.0\CleanArchitecture.Infrastructure.pdb
