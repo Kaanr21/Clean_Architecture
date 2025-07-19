@@ -12,7 +12,9 @@ using CleanArchitecture.Persistance.Services;
 using CleanArchitecture.WebApi.OptionsSetup;
 using FluentValidation;
 using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using Serilog;
 
 
@@ -55,9 +57,35 @@ builder.Host.UseSerilog();
 //JWT settings
 builder.Services.ConfigureOptions<JwtOptionsSetup>();
 builder.Services.ConfigureOptions<JwtBearerOptionsSetup>();
+
 builder.Services.AddAuthentication().AddJwtBearer();
+builder.Services.AddAuthentication();
 
+builder.Services.AddSwaggerGen(setup =>
+{
+    var jwtSecuritySheme = new OpenApiSecurityScheme
+    {
+        BearerFormat = "JWT",
+        Name = "JWT Authentication",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Scheme = JwtBearerDefaults.AuthenticationScheme,
+        Description = "Put **_ONLY_** yourt JWT Bearer token on textbox below!",
 
+        Reference = new OpenApiReference
+        {
+            Id = JwtBearerDefaults.AuthenticationScheme,
+            Type = ReferenceType.SecurityScheme
+        }
+    };
+
+    setup.AddSecurityDefinition(jwtSecuritySheme.Reference.Id, jwtSecuritySheme);
+
+    setup.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+                    { jwtSecuritySheme, Array.Empty<string>() }
+    });
+});
 var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();
 // Configure the HTTP request pipeline.

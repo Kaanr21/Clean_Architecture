@@ -897,3 +897,22 @@ System.Exception: Refresh Token Geçerli Değil
    at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\Middlewares\ExceptionMiddleware.cs:line 20
+2025-07-19 17:46:13.485 +03:00 [ERR] Hata yakalandı: Passwords must have at least one non alphanumeric character.
+System.Exception: Passwords must have at least one non alphanumeric character.
+   at CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Register.RegisterCommandHandler.Handle(RegisterCommand request, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Feautures\AccountFeautures\Commands\Register\RegisterCommandHandler.cs:line 28
+   at CleanArchitecture.Application.Behaviors.FluentValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.Application\Behaviors\FluentValidationBehavior.cs:line 20
+   at CleanArchitecture.Presentation.Controllers.AccountController.Register(RegisterCommand request, CancellationToken token)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\kaan_\Documents\GitHub\Clean_Architecture\CleanArchitecture.WebApi\Middlewares\ExceptionMiddleware.cs:line 20

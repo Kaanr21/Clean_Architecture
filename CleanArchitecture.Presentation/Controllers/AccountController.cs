@@ -3,10 +3,14 @@ using CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Login;
 using CleanArchitecture.Application.Feautures.AccountFeautures.Commands.Register;
 using CleanArchitecture.Presentation.Abstraction;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchitecture.Presentation.Controllers
 {
+
+    [AllowAnonymous]
+
     public class AccountController : MyBaseApiController
     {
         public AccountController(IMediator mediator) : base(mediator)
